@@ -71,7 +71,7 @@
 		<section>
 		<h3>我的联系方式</h3>
 		<h2>PGP 公钥指纹</h2>
-		<h4>@发送一个秘密信息给我吧！！！ <small><a href="../pgp/" target="_blank">使用手册</a></small></h4>
+		<h4>@发送一个秘密给我吧！！！ <small><a href="../pgp/" target="_blank">使用手册</a></small></h4>
 		<pre><code data-trim contenteditable>
 [ghw@gehaowu.pts/0] ~ % gpg --fingerprint
 /home/ghw/.gnupg/pubring.kbx
@@ -211,15 +211,15 @@ Reveal.initialize({
 	history: true,
 	center: true,
 	theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-	transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+	transition: Reveal.getQueryHash().transition || 'cube', // default/cube/page/concave/zoom/linear/fade/none
 	// Optional libraries used to extend on reveal.js
 		dependencies: [
 			{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-			{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-			{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+			//{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+			//{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 			{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-			{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-			{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+			//{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+			//{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
 			]
 		});
 </script>
